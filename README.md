@@ -48,7 +48,7 @@ To use this project, follow these steps:
 - **Data Cleaning:** Preprocessing and cleaning the dataset for analysis.
 - **Exploratory Data Analysis (EDA):** Statistical analysis and visualization of several dependent variables.
 - **Linear Regression:** Analyzing factor influencing pricing Uber vs Lyft.
-- **Model Inference:**predicting dependent variable (prices) using influenced factors.
+- **Model Inference:** Predicting dependent variable (prices) using influenced factors.
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or issues, feel free to open an issue or submit a pull request.
