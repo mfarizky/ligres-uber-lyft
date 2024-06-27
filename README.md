@@ -1,4 +1,4 @@
-# Analysis and Visualization of Crime in London City
+# Analyzing Competitive Factors Influencing Uber and Lyft Pricing Strategies in Boston, MA
 
 ## Project Overview
  [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma) is the provided dataset. We can use the dataset to conduct analysis of the factors influencing the competition between Uber and Lyft in the Bostonm Massachusetts region. These tow companies offer similar services, specifically online transportation, but they vie for the market share through aspects such as pricing service quality, availability, and other variables. Consequently, this data analysis seeks to identify and evaluate the determinants that impact pricing strategies. In this data analysis, the linier regression method is employed as it aligns with our objective of identifying the factors influencing pricing by modeling several dependent variables and determining the best-fitting model.
