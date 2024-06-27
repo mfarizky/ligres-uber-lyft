@@ -1,7 +1,7 @@
 # Analysis and Visualization of Crime in London City
 
 ## Project Overview
-This project aims to identify and address crime problems in London using the [London Crime dataset](https://www.kaggle.com/datasets/jboysen/london-crime) from Kaggle. By analyzing and visualizing the data, we hope to uncover patterns and trends in criminal activity within the city. This information can be useful for law enforcement, policymakers, and the general public to understand and mitigate crime in London.
+ [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma) is the provided dataset. We can use the dataset to conduct analysis of the factors influencing the competition between Uber and Lyft in the Bostonm Massachusetts region. These tow companies offer similar services, specifically online transportation, but they vie for the market share through aspects such as pricing service quality, availability, and other variables. Consequently, this data analysis seeks to identify and evaluate the determinants that impact pricing strategies. In this data analysis, the linier regression method is employed as it aligns with our objective of identifying the factors influencing pricing by modeling several dependent variables and determining the best-fitting model.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -9,21 +9,18 @@ This project aims to identify and address crime problems in London using the [Lo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Visualization](#visualization)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Dataset
-The dataset used in this project is sourced from Kaggle: [London Crime dataset](https://www.kaggle.com/datasets/jboysen/london-crime). It includes crime records from different boroughs in London from 2008 to 2016, categorized by major and minor crime types.
+The dataset used in this project is sourced from Kaggle:  [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma).
 
 ## Installation
 To run this project locally, follow these steps:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/london-crime-analysis.git
-    cd london-crime-analysis
+    git clone https://github.com/mfarizky/ligres-uber-lyft.git
+    cd ligres-uber-lyft
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -45,20 +42,13 @@ To use this project, follow these steps:
     ```bash
     jupyter notebook
     ```
-3. Open the `London_Crime_Analysis.ipynb` notebook and run the cells to see the analysis and visualizations.
+3. Open the `Linear_Regression.ipynb` notebook and run the cells to see the analysis and visualizations.
 
 ## Features
 - **Data Cleaning:** Preprocessing and cleaning the dataset for analysis.
-- **Exploratory Data Analysis (EDA):** Statistical analysis and visualization of crime trends and patterns.
-- **Time Series Analysis:** Analyzing crime trends over time.
-- **Geospatial Analysis:** Mapping crime data to visualize geographical distribution.
-
-## Visualization
-The project includes several visualizations to help understand the crime data, such as:
-- Crime trends over the years.
-- Distribution of crime types.
-- Heatmaps of crime incidents by borough.
-- Time series plots of crime rates.
+- **Exploratory Data Analysis (EDA):** Statistical analysis and visualization of several dependent variables.
+- **Linear Regression:** Analyzing factor influencing pricing Uber vs Lyft.
+- **Model Inference:**predicting dependent variable (prices) using influenced factors.
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or issues, feel free to open an issue or submit a pull request.
@@ -70,7 +60,7 @@ Contributions are welcome! If you have any ideas, suggestions, or issues, feel f
 5. Open a pull request.
 
 ## Acknowledgements
-- The [London Crime dataset](https://www.kaggle.com/datasets/jboysen/london-crime) provided by Kaggle.
+- The [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma) provided by Kaggle.
 - Inspiration and guidance from various data science and machine learning communities.
 ---
 
